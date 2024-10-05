@@ -8,7 +8,7 @@ echo ------------------------------------
 echo             МЕНЮ
 echo ------------------------------------
 echo 1. Удалить мусор
-echo 2. Удаление не нужных языков
+echo 2. Удаление ненужных языков
 echo 3. Установить OpenASAR
 echo 4. Выключить Discord
 echo 5. Включить Discord
@@ -63,7 +63,7 @@ rem Удаление языков
 :remove_languages
 color 0F
 cls
-echo Удаление не нужных языков...
+echo Удаление ненужных языков...
 taskkill /IM discord.exe /F
 setlocal enabledelayedexpansion
 set "directory=C:\Users\lxt3z\AppData\Local\Discord\app-*\locales"
